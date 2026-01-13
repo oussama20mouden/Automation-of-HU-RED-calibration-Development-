@@ -37,7 +37,12 @@ Manual HU–RED curve generation is time-consuming and prone to user variability
 2. Run the script on the DICOM series folder
 3. Export curve + report
 4. Compare to baseline for monthly constancy QA
+## Paper / related publication (RPC)
+A published study in *Radiation Physics and Chemistry* (RPC) provides additional context on HU–density calibration in radiotherapy and uses the **EasyCube HU–density curve as a reference** when comparing calibration curves derived from a novel phantom in pediatric radiotherapy planning.  [oai_citation:0‡ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0969806X25005602)
 
+DOI:
+```text
+https://doi.org/10.1016/j.radphyschem.2025.113068
 ## Example commands
 ```bash
 # Auto-detect phantom type
