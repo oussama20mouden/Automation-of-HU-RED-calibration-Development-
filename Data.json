@@ -1,0 +1,24 @@
+{
+  "tolerances_hu": {
+    "water": 30,
+    "lung_inhale": 50,
+    "lung_exhale": 50,
+    "dense_bone": 50,
+    "adipose": 40,
+    "muscle": 40
+  },
+  "phantoms": {
+    "catphan_ctp404": {
+      "roi_radius_fraction": 0.65,
+      "inserts": [
+        {"name": "air", "red": 0.0, "hu_hint": -1000},
+        {"name": "foam", "red": 0.0, "hu_hint": -800},
+        {"name": "ldpe", "red": 0.0, "hu_hint": -100},
+        {"name": "polystyrene", "red": 0.0, "hu_hint": -35},
+        {"name": "acrylic", "red": 0.0, "hu_hint": 120},
+        {"name": "delrin", "red": 0.0, "hu_hint": 340},
+        {"name": "teflon", "red": 0.0, "hu_hint": 950}
+      ]
+    }
+  }
+}
